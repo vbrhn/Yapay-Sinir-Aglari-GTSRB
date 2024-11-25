@@ -1,15 +1,15 @@
 **Veriyi İndir ve Yapıyı İncele** 
 GTSRB veri setini resmi web sitesinden veya Kaggle’dan indirebilirsiniz. Kaggle'dan https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign/data adresinden indirebilirsiniz ya da pytorch'un içindeki datasetlerin içerisinde bulabilirsiniz.
 Veriler genellikle train ve test klasörleri içinde organize edilmiştir. Klasör yapısı şu şekilde olabilir:
-GTSRB/
-├── Train/
-│   ├── 00000/ (Sınıf 0)
-│   ├── 00001/ (Sınıf 1)
-│   └── ...
-└── Test/ 
-    ├── 00000/ (Sınıf 0)
-    ├── 00001/ (Sınıf 1)
-    └── ...
+**GTSRB/**
+* ├── Train/
+* │   ├── 00000/ (Sınıf 0)
+* │   ├── 00001/ (Sınıf 1)
+* │   └── ...
+* └── Test/ 
+*    ├── 00000/ (Sınıf 0)
+*    ├── 00001/ (Sınıf 1)
+*    └── ...
 **PyTorch Dataset ve DataLoader Yapısı**
 PyTorch’ta bir veri setini yüklemek için genellikle torch.utils.data.Dataset ve DataLoader kullanılır.
 Dataset sınıfını tanımlarken:
